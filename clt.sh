@@ -34,7 +34,7 @@ function searchyt {
 	firefox -new-tab "https://www.youtube.com/results?search_query=$QUERY"
 }
 
-cvlc -v http://listen.clubtime.fm > /dev/null &
+cvlc -v http://aac-hd.stream.tb-group.fm/clt > /dev/null &
 
 while true ; do
 	read command
